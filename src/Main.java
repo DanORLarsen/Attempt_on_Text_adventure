@@ -13,12 +13,15 @@ public class Main {
 
 
     System.out.println("Hello Player! Wanna play? 'yes' or 'no'");
+        System.out.print("->");
     Start = sc.next();
 
     if (Start.equalsIgnoreCase("no"))
     {System.out.println("THE END");}
     else if (Start.equalsIgnoreCase("yes"))
-    {System.out.println("You're in a creepy abandoned Asylum. Do you wanna go 'upstairs', 'leave' or 'stay' on the ground floor");}
+    {System.out.println("You're in a creepy abandoned Asylum. Do you wanna go 'upstairs', 'leave' or 'stay' on the ground floor");
+        System.out.print("->");}
+
     Go = sc.next();
 
         if (Go.equalsIgnoreCase("leave"))
@@ -28,6 +31,7 @@ public class Main {
         if (Go.equalsIgnoreCase("stay"))
         {System.out.println("You hear someone by the door trying to break in and you wanna defend yourself.");
         System.out.println("on the table in front of you, there is a 'banana' and a 'crowbar'. Which of these items do you pick?");
+            System.out.print("->");
         Take = sc.next();
 
         if (Take.equalsIgnoreCase("banana"))
