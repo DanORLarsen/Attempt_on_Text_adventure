@@ -16,6 +16,7 @@ public class Main {
         System.out.print("->");
     Start = sc.next();
 
+
     if (Start.equalsIgnoreCase("no"))
     {System.out.println("THE END");}
     else if (Start.equalsIgnoreCase("yes"))
